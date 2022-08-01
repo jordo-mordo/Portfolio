@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[158],{158:function(e,o,s){e.exports=s.p+"static/media/Redux.0a4a6ca2be44339bedb6.svg"}}]);

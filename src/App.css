@@ -1,0 +1,23 @@
+:root {
+  --1: #FF0D22;
+  --2: #C90A1B;
+  --3: #960814;
+  --4: #75060F;
+  --5: #52040B;
+}
+
+html {
+  height:100%;
+  /* background: linear-gradient(0deg, var(--dark) 0%, var(--darker) 100%); */
+}
+
+body {
+  overflow: hidden;
+  color: white;
+}
+
+h1{
+  font-size: 4em;
+}
+
+
