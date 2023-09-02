@@ -1,0 +1,52 @@
+:root {
+  --1: #FF0D22;
+  --2: #C90A1B;
+  --3: #960814;
+  --4: #75060F;
+  --5: #52040B;
+}
+
+html {
+  height:100%;
+  /* background: linear-gradient(0deg, var(--dark) 0%, var(--darker) 100%); */
+}
+
+body {
+  overflow: hidden;
+  background: linear-gradient(-45deg, #6F04D9, #1B0273, #3866F2, #0597F2, #05C7F2);
+  background-size: 300% 300%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+h1{
+  font-size: 4em;
+}
+
+
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
